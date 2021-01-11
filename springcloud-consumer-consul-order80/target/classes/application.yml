@@ -4,8 +4,7 @@ server:
 
 spring:
   application:
-    name: cloud-consumer-order
-
+    name: consul-consumer-order
 ####consul注册中心地址
   cloud:
     consul:

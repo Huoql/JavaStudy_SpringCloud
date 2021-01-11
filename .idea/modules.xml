@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-feign-order80/springcloud-consumer-feign-order80.iml" filepath="$PROJECT_DIR$/springcloud-consumer-feign-order80/springcloud-consumer-feign-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard9001/springcloud-consumer-hystrix-dashboard9001.iml" filepath="$PROJECT_DIR$/springcloud-consumer-hystrix-dashboard9001/springcloud-consumer-hystrix-dashboard9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-order80/springcloud-consumer-order80.iml" filepath="$PROJECT_DIR$/springcloud-consumer-order80/springcloud-consumer-order80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-consumer-zk-order80/springcloud-consumer-zk-order80.iml" filepath="$PROJECT_DIR$/springcloud-consumer-zk-order80/springcloud-consumer-zk-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server7001/springcloud-eureka-server7001.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server7001/springcloud-eureka-server7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server7002/springcloud-eureka-server7002.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server7002/springcloud-eureka-server7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-gateway-gateway9527/springcloud-gateway-gateway9527.iml" filepath="$PROJECT_DIR$/springcloud-gateway-gateway9527/springcloud-gateway-gateway9527.iml" />
@@ -23,6 +24,7 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider-hystrix-payment8001/springcloud-provider-hystrix-payment8001.iml" filepath="$PROJECT_DIR$/springcloud-provider-hystrix-payment8001/springcloud-provider-hystrix-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider-payment8001/springcloud-provider-payment8001.iml" filepath="$PROJECT_DIR$/springcloud-provider-payment8001/springcloud-provider-payment8001.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-provider-payment8002/springcloud-provider-payment8002.iml" filepath="$PROJECT_DIR$/springcloud-provider-payment8002/springcloud-provider-payment8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-provider-zk-payment8004/springcloud-provider-zk-payment8004.iml" filepath="$PROJECT_DIR$/springcloud-provider-zk-payment8004/springcloud-provider-zk-payment8004.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-stream-rabbitmq-consumer8802/springcloud-stream-rabbitmq-consumer8802.iml" filepath="$PROJECT_DIR$/springcloud-stream-rabbitmq-consumer8802/springcloud-stream-rabbitmq-consumer8802.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-stream-rabbitmq-consumer8803/springcloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/springcloud-stream-rabbitmq-consumer8803/springcloud-stream-rabbitmq-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-stream-rabbitmq-provider8801/springcloud-stream-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/springcloud-stream-rabbitmq-provider8801/springcloud-stream-rabbitmq-provider8801.iml" />

@@ -33,6 +33,8 @@
         <module>springcloud-alibaba-provider-payment9002</module>
         <module>springcloud-alibaba-consumer-order83</module>
         <module>springcloud-alibaba-nacos-config-client3377</module>
+        <module>springcloud-provider-zk-payment8004</module>
+        <module>springcloud-consumer-zk-order80</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->

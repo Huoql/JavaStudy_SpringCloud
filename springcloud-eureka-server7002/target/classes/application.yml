@@ -1,7 +1,6 @@
 server:
   port: 7002
 
-
 #实现高可用搭建集群
 eureka:
   instance:

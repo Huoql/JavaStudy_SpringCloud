@@ -20,8 +20,8 @@ import java.util.List;
 @Slf4j
 public class OrderController {
 
-//    public static final String PAYMENT_URL = "http://localhost:8001";
-public static final String PAYMENT_URL = "http://SPRINGCLOUD-PAYMENT-SERVICE";
+//    public static final String PAYMENT_URL = "http://localhost:8001";  //payment为单机时地址写死
+    public static final String PAYMENT_URL = "http://SPRINGCLOUD-PAYMENT-SERVICE"; //payment搭建成集群时，只认服务名称
 
     @Resource
     private RestTemplate restTemplate;
@@ -40,6 +40,11 @@ public static final String PAYMENT_URL = "http://SPRINGCLOUD-PAYMENT-SERVICE";
     @GetMapping("/consumer/payment/get/{id}")
     public CommonResult getPayment(@PathVariable("id") Long id) {
         return restTemplate.getForObject(PAYMENT_URL + "/payment/get/"+id,CommonResult.class);
+    }
+
+    @GetMapping("/consumer/payment/postForEntity/create")
+    public CommonResult create2(Payment payment) {
+        return restTemplate.postForEntity(PAYMENT_URL + "/payment/create",payment,CommonResult.class).getBody();
     }
 
     @GetMapping("/consumer/payment/getForEntity/{id}")

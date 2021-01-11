@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/springcloud- consumerconsul-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-provider-zookeeper-payment8004/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-providerconsul-payment8006/pom.xml" />
       </set>
     </option>

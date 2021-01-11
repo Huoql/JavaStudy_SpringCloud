@@ -52,7 +52,7 @@ public class PaymentController {
     public Object dicovery() {
         List<String> services = discoveryClient.getServices();
         for (String service : services) {
-            log.info("=======service：" + service);
+            log.info("=======element：" + service);
         }
 
         List<ServiceInstance> instances = discoveryClient.getInstances("SPRINGCLOUD-PAYMENT-SERVICE");
@@ -68,6 +68,7 @@ public class PaymentController {
         return serverPort;
     }
 
+    //演示OpenFeign超时控制，故意设置超时
     @GetMapping("payment/feign/timeout")
     public String paymentFeignTimeout() {
         try{
