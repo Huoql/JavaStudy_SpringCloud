@@ -30,14 +30,15 @@ public class OrderHystrixController {
     @GetMapping("/consumer/payment/hystrix/timeout/{id}")
 //    @HystrixCommand(fallbackMethod = "paymentTimeOutFallbackMethod",commandProperties = {
 //            @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="1500")
-//    })
-    @HystrixCommand
+//    })  //演示精确匹配的fallback方法
+    @HystrixCommand  //演示全局fallback方法
     public String paymentInfo_TimeOut(@PathVariable("id") Integer id)
     {
-        int age = 10/0;
+//        int age = 10/0;
         String result = paymentHystrixService.paymentInfo_TimeOut(id);
         return result;
     }
+
     //下面是方法精确配置的fallback方法，独享
     public String paymentTimeOutFallbackMethod(@PathVariable("id") Integer id)
     {
