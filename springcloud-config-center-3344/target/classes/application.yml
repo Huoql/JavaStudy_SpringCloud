@@ -9,8 +9,8 @@ spring:
       server:
         git:
           uri: https://github.com/hql0512/springcloud-config.git #GitHub上面的git仓库名字
-          username: hql0512
-          password: huoquanlong0512
+#          username: hql0512
+#          password: huoquanlong0512
         ####搜索目录
           search-paths:
             - springcloud-config
@@ -23,16 +23,16 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
 
-##rabbitmq相关配置,暴露bus刷新配置的端点
-management:
-  endpoints: #暴露bus刷新配置的端点
-    web:
-      exposure:
-        include: 'bus-refresh'
-
-#rabbitmq相关配置
-rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+###rabbitmq相关配置,暴露bus刷新配置的端点
+#management:
+#  endpoints: #暴露bus刷新配置的端点
+#    web:
+#      exposure:
+#        include: 'bus-refresh'
+#
+##rabbitmq相关配置
+#rabbitmq:
+#    host: localhost
+#    port: 5672
+#    username: guest
+#    password: guest

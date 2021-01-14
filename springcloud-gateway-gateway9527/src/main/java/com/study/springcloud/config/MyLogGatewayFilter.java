@@ -22,7 +22,7 @@ public class MyLogGatewayFilter implements GlobalFilter,Ordered{
         if(username == null) {
             log.info("******************用户名为null!!!");
             exchange.getResponse().setStatusCode(HttpStatus.NOT_ACCEPTABLE);
-            exchange.getResponse().setComplete();
+            return exchange.getResponse().setComplete();
         }
 
         return chain.filter(exchange);
