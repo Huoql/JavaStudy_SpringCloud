@@ -39,6 +39,6 @@ mybatis:
   mapperLocations: classpath:mapper/*.xml
   type-aliases-package: com.study.springcloud.entities    # 所有Entity别名类所在包
 
-logging:
-  level:
-    com.study.springcloud.dao: debug
+#logging:
+#  level:
+#    com.study.springcloud.dao: debug
