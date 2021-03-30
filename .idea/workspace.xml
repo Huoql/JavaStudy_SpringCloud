@@ -119,6 +119,9 @@
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\idea\ideaProjects\SpringCloud2020\springcloud-alibaba-nacos-config-client3377\src\main\resources" />
@@ -493,6 +496,9 @@
       <workItem from="1611107409925" duration="3934000" />
       <workItem from="1611126205177" duration="133000" />
       <workItem from="1611195923911" duration="695000" />
+      <workItem from="1617002182839" duration="19000" />
+      <workItem from="1617081422832" duration="121000" />
+      <workItem from="1617082403123" duration="318000" />
     </task>
     <servers />
   </component>
@@ -609,6 +615,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1611107423853" />
+    <state x="467" y="144" width="602" height="536" key="find.popup" timestamp="1617081475295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="144" width="602" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617081475295" />
     <state x="356" y="59" key="new project wizard" timestamp="1609930958043">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -621,10 +631,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1610359873947" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610450373038">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1617081485868">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610450373038" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1617081485868" />
     <state x="274" y="95" key="spring file set editor" timestamp="1611037157186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
